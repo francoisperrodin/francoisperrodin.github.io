@@ -1,0 +1,3 @@
+<If "%{HTTPS} != 'on'">
+Redirect 302 / https://perrodin.pages-perso.free.fr/
+</If>

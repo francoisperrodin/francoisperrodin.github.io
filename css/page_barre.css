@@ -1,0 +1,103 @@
+html , body  {
+	margin: 0;
+	padding: 0px;
+	height: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+	
+}
+.barre {
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	background: #fff;
+	z-index: 10;
+	align: center;
+}
+.page {
+	width: 100%;
+	position: relative;
+	top: 90px;
+	background: #fff;
+	height: auto;
+	align: center;
+	leftmargin: 10;
+	rightmargin: 10;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+a {
+	font-size: 10px;
+	color: #666;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration-color: fuchsia;
+}
+a img {
+  border: 0;
+}
+.Verdana10 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+}
+.Verdana12 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.Verdana12Gray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+.Verdana10Gray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+}
+.Verdana14 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.Verdana18 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+.Verdana24 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+}
+.Verdana48 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 48px;
+}
+.legende {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+
+.change .apres, .change:hover .avant {
+	display : none;
+	cursor: pointer;
+	text-decoration: none;
+	color: #666;
+}
+.change:hover .apres {
+	display : block;
+	color: #666;
+	text-decoration: none;
+}
